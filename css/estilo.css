@@ -1,0 +1,322 @@
+/* BODY */
+/* * { 
+    border: 2px red solid;
+}
+*/
+html{
+    height: 100%;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+    background-color: rgb(255, 255, 255);
+}
+
+/* HEADER */
+header{
+    background-color: #d1cbce;
+    position: sticky;
+    top: 0;
+    z-index: 5;
+}
+
+h1{
+    text-align: center;
+    font-family: 'Alumni Sans', sans-serif;
+}
+li{
+    display:inline-block;
+    padding-left:15px;
+    padding-right:15px;
+    list-style-type: none;
+    font-family: 'IBM Plex Sans Condensed', sans-serif;
+
+}
+
+.Lista2 {
+    text-align: right;
+} 
+
+a{
+    text-decoration: none;
+}
+
+
+/* Main */
+main{
+    background-color: rgb(250, 226, 247) ;
+    height: 100%;
+}
+
+/* index */
+.divPrincipal {
+    position: relative;
+    height: 100%;
+    background-color: rgb(250, 226, 247);
+}
+
+.tituloPrincipal {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 3;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.brain {
+    top: 170px;
+    left: 740px;
+}
+.nombree {
+    top: 205px;
+    left: 680px;
+}
+.psico {
+    top: 240px;
+    left: 720px;
+}
+.flores {
+    position: absolute;
+    display: flex;
+    width: 450px;
+    top: 40px;
+    left: 530px;
+    z-index: 2;
+    border-radius: 3px;
+}
+
+/* Sobre Mi */
+
+.florSobreMi {
+    position: relative;
+    display: inline-block;
+    width: 300px;
+    top: 10px;
+    left: 200px;
+    border-radius: 10px;
+}
+.textoSobremi {
+    font-family: 'Dancing Script', cursive;
+}
+
+.textoPrincipal {
+    position: relative;
+    display: inline-block;
+    top: -180px;
+    left: 220px;
+}
+
+/* Mi especialidad */
+
+.especializada{
+    font-family: 'Dancing Script', cursive;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.contenedor1 {
+    position: relative;
+    height: 450px;
+    top: 50px;
+}
+.cabeza {
+    position: absolute;
+    font-size: 12px;
+    text-align: center;
+}
+
+.uno {
+    left: 300px;
+}
+
+.dos {
+    left: 500px;
+}
+
+.tres {
+    left: 700px;
+}
+
+.cuatro {
+    left: 900px;
+}
+
+.cinco {
+    left: 1100px;
+}
+
+/* Proceso terapeutico */
+
+.divTerapia {
+    position: relative;
+    height: 900px;
+}
+.tituloTerapia {
+    position: relative;
+    display: inline;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-style: oblique;
+    font-size: 60px;
+    top: 50px;
+    left: 300px;
+}
+
+.tituloTerapiaDos {
+    position: relative;
+    display: inline;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    top: 80px;
+    left: 100px;
+}
+
+.textoTerapia {
+    position: relative;
+    display: inline-block;
+    margin-top: 100px;
+    margin-left: 50px;
+    margin-right: 750px;
+
+}
+.terapiaFoto{
+    display: inline;
+    width: 600px;
+    position:absolute;
+    top: 50px;
+    left: 1200px;
+}
+
+/* Informacion */
+
+.contenedorPrincipal{
+    position: relative;
+    height: 900px;
+    top: 50px;
+}
+
+.cajaMadre {
+    position: absolute;
+    background-color: #d1cbce ;
+    width: 1300px;
+    height: 300px;
+    margin: 20px 100px 400px 100px;
+}
+
+.cajaConsulta {
+    position: absolute;
+    display: inline-block;
+    border: 1px black solid;
+    left: 200px;
+    top: -15px;
+    background-color: rgb(250, 226, 247);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.icono {
+    position: absolute;
+    font-size: 12px;
+    text-align: center;
+    top: 99px;
+    font-weight: bold;
+}
+
+.persona {
+    left: 250px;
+}
+
+.tiempo {
+    left: 450px;
+}
+
+.plata{
+    left: 650px;
+}
+.online{
+    left: 1000px;
+}
+.presencial{
+    left: 1200px;
+}
+.fotoInfo {
+    position: absolute;
+    display: inline-block;
+    width: 1400px;
+    margin: 400px 50px 3px 50px;
+}
+
+/* Solicitar una cita */
+
+.solicitarCita {
+    
+    
+    display: block;
+    height: 100%;
+
+}
+
+.tituloCita{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 40px;
+    position: relative;
+    left: 330px;
+}
+.classh3{
+    position: absolute;
+    width: 30%;
+    left: 330px;
+    font-family: 'Caprasimo', cursive;
+}
+
+.formulario {
+    position: absolute;
+    background-color: rgb(252, 243, 249);
+    font-family: Arial, Helvetica, sans-serif;
+    width: 30%;
+    padding: 10px;
+    left: 300px;
+    top: 400px;
+}
+
+.nombre {
+    display: block;
+}
+.mensaje {
+    display: block;
+}
+.telefono {
+    display: block;
+}
+.enter{
+    position: relative;
+    display: inline-block;
+}
+.flor4{
+    display: inline-block;
+    position: relative;
+    width: 400px;
+    left: 1000px;
+    top: -100px;
+}
+
+
+/* Footer */
+
+.footer {
+    background-color: #a3a2a3;
+    padding: 5;
+    margin-top: auto;
+    position: sticky;
+    z-index: 2;
+    width: 100%;
+    height: 6rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.parrafo { display: inline-block;
+           text-align: center;
+}
+
