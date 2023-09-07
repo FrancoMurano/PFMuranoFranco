@@ -25,6 +25,10 @@ body {
     color: rgb(27, 27, 27);
     text-decoration: none;
     font-size: 30px;
+    margin: auto;
+    margin-left: 80px;
+    margin-right: 80px;
+    display: flex;
 }
 
 .nav {
@@ -65,7 +69,12 @@ body {
 }
 
 .fondoHeader {
+    display: flex;
     background-color: rgb(233, 233, 233);
+    justify-content: space-evenly;
+    align-items: center;
+    margin:auto;
+    
 }
 
 /* Main */
@@ -79,6 +88,7 @@ body {
 
 .signoPsico {
     height: 40px;
+    width: 40px;
 }
 
 .cajaIndex {
@@ -87,7 +97,7 @@ body {
     height: 550px;
     width: 1200px;
     max-width: 90%;
-    position: absolute;
+    position: relative;
     top: 0;
     bottom: 0;
     right: 0;
