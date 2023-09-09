@@ -10,25 +10,26 @@
 html{
     height: 100%;
 }
-body {
-    display: flex;
-    flex-direction: column;
-    min-height: 100%;
-    text-align: center;
-    
-}
 
 /* HEADER */
+
+.fondoHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(233, 233, 233);
+    width: 100%;
+}
 
 .hola{
     font-family: 'Lora', serif;
     color: rgb(27, 27, 27);
     text-decoration: none;
     font-size: 30px;
-    margin: auto;
-    margin-left: 80px;
-    margin-right: 80px;
+    flex-grow: 23;
     display: flex;
+    justify-content: center;
+    
 }
 
 .nav {
@@ -37,14 +38,20 @@ body {
     text-transform: uppercase;
     font-size: 20px;
     font-weight: bold;
+    display: flex;
+    align-items: center;
+    
 }
+
 .listaNav{
     color: grey;
     font-family: "Barlow Condensed", Sans-serif;
     text-transform: uppercase;
     font-size: 17px;
     font-weight: bold;
+    padding: 10px;
     margin: 10px;
+
 }
 .listaNav:hover {
     border-bottom: black solid 2px;
@@ -58,24 +65,16 @@ body {
     text-transform: uppercase;
     font-size: 17px;
     font-weight: bold;
-    margin: 10px;
+    margin: auto;
 }
 
 
 .listaPedirCita:hover {
     background-color: rgb(77, 76, 76);
     color:aliceblue
- 
 }
 
-.fondoHeader {
-    display: flex;
-    background-color: rgb(233, 233, 233);
-    justify-content: space-evenly;
-    align-items: center;
-    margin:auto;
-    
-}
+
 
 /* Main */
 
@@ -166,7 +165,6 @@ body {
 
 .especializada{
     font-family: 'Dancing Script', cursive;
-    display: flex;
     justify-content: center;
     align-items: center;
 
@@ -395,5 +393,9 @@ body {
         margin-left: auto;
     }
     
+    .bodyMiEspecialidad {
+        display: grid;
+    }
 
+    
 }

@@ -9,14 +9,14 @@
 </head>
 <body class="container-fluid">
   <header class="navbar navbar-expand-lg fondoHeader">
-    <div class="container-fluid">
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
-        aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <nav class="collapse navbar-collapse" id="navbarNavAltMarkup">
+    <nav class="navbar navbar-expand-lg fondoHeader">
+      <div class="container-fluid ">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
         <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav Nav">
+          <ul class="navbar-nav nav ms-auto">
             <li class="nav-item">
               <a class="nav-link listaNav" aria-current="page" href="sobremi.html"> SOBRE MÍ</a>
             </li>
@@ -28,26 +28,31 @@
             </li>
           </ul>
         </div>
-      </nav>
-      <h1 class="mx-auto"><a class="hola" href="../index.html"> FLORENCIA COFRE </a></h1>
-      <nav class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav Nav ms-auto">
-          <li class="nav-item">
-            <a class="nav-link listaNav" href="informacion.html"> INFORMACIÓN</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link listaNav" href="#contacto"> CONTACTO </a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link listaPedirCita" href="pedirunacita.html"> PEDIR UNA CITA </a>
-          </li>
-        </ul>
-      </nav>
-    </div>
+        <div class="hola">
+          <h1><a class="hola" href="/index.html"> FLORENCIA COFRE </a></h1>
+        </div>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav nav">
+            <li class="nav-item">
+              <a class="nav-link listaNav" href="informacion.html"> INFORMACIÓN</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link listaNav" href="#contacto"> CONTACTO </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link listaPedirCita" href="pedirunacita.html"> PEDIR UNA CITA </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
   </header>
     <main>
-        <h2 class="especializada"> Estoy especializada en </h2>
-        <div class="contenedor1">
+      <div class="contenedorPadreMiEspecialidad">
+        <section class="contenedorHijoMiEspecialidad">
+            <h2 class="especializada"> Estoy especializada en </h2>
+        </section>
+        <section class="contenedor1">
             <div class="cabeza uno"><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-alien" width="70" height="70" viewBox="0 0 24 24" stroke-width="1.5" stroke="#fd0061" fill="none" stroke-linecap="round" stroke-linejoin="round">
               <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
               <path d="M11 17a2.5 2.5 0 0 0 2 0" />
@@ -89,7 +94,8 @@
             </svg><p>FOBIAS<br>
               DE IMPULSO</p></div>
 
-        </div>
+        </section>
+      </div>
     </main>
     <footer class="footer">
       <div class="parrafo">
