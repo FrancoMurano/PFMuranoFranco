@@ -1,15 +1,1 @@
-/*  Ventajas de trabajar con SASS */
-
-//1) Ahora podemos anidar selectores.
-//2} Ahora podemos trabajar con variables
-//3) El & lo usan para las pseudoclases
-//4) Podemos usar operadores matematicos
-//5) Podemos dividir nuestro codigo en partials
-
-
-
-// Variable: un espacio en memoria que separamos para guardar informacion importante.
-
-@import "variables" , "header" , "footer" , "formulario", "medias" ;
-
-
+@import  "general" , "fuentes" , "header" , "index" , "sobremi", "miespecialidad" , "procesoterapeutico" , "informacion" , "pedirunacita" , "footer" , "medias" ;

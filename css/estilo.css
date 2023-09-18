@@ -1,427 +1,442 @@
-@import url('https://fonts.googleapis.com/css2?family=Alumni+Sans:ital,wght@0,100;0,200;0,400;1,300&family=Barriecito&family=Dancing+Script:wght@400;500&family=IBM+Plex+Sans+Condensed:wght@100&family=Lora&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Alumni+Sans:ital,wght@0,100;0,200;0,400;1,300&family=Barlow+Condensed:wght@100&family=Barriecito&family=Dancing+Script:wght@400;500&family=IBM+Plex+Sans+Condensed:wght@100&family=Lora&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Alumni+Sans:ital,wght@0,100;0,200;0,400;1,300&family=Barlow+Condensed:wght@100&family=Barriecito&family=Dancing+Script:wght@400;500&family=Dawning+of+a+New+Day&family=IBM+Plex+Sans+Condensed:wght@100&family=Lora&display=swap');
-/* BODY */
-
-/* * { 
-    border: 2px red solid;
+@import url("https://fonts.googleapis.com/css2?family=Alumni+Sans:ital,wght@0,100;0,200;0,400;1,300&family=Barriecito&family=Dancing+Script:wght@400;500&family=IBM+Plex+Sans+Condensed:wght@100&family=Lora&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Alumni+Sans:ital,wght@0,100;0,200;0,400;1,300&family=Barlow+Condensed:wght@100&family=Barriecito&family=Dancing+Script:wght@400;500&family=IBM+Plex+Sans+Condensed:wght@100&family=Lora&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Alumni+Sans:ital,wght@0,100;0,200;0,400;1,300&family=Barlow+Condensed:wght@100&family=Barriecito&family=Dancing+Script:wght@400;500&family=Dawning+of+a+New+Day&family=IBM+Plex+Sans+Condensed:wght@100&family=Lora&display=swap");
+* {
+  margin: 0;
+  padding: 0;
 }
-*/
-html{
-    height: 100%;
+
+body {
+  font-family: "Times New Roman", Times, serif;
+  background-color: azure;
 }
 
 /* HEADER */
-
 .fondoHeader {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: rgb(233, 233, 233);
-    width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(233, 233, 233);
+  width: 100%;
 }
 
-.hola{
-    font-family: 'Lora', serif;
-    color: rgb(27, 27, 27);
-    text-decoration: none;
-    font-size: 30px;
-    flex-grow: 23;
-    display: flex;
-    justify-content: center;
-    
+.hola {
+  font-family: "Lora", serif;
+  color: rgb(27, 27, 27);
+  text-decoration: none;
+  font-size: 30px;
+  flex-grow: 23;
+  display: flex;
+  justify-content: center;
 }
 
 .nav {
-    text-decoration: none;   
-    list-style-type: none;
-    text-transform: uppercase;
-    font-size: 20px;
-    font-weight: bold;
-    display: flex;
-    align-items: center;
-    
+  text-decoration: none;
+  list-style-type: none;
+  text-transform: uppercase;
+  font-size: 20px;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
 }
 
-.listaNav{
-    color: grey;
-    font-family: "Barlow Condensed", Sans-serif;
-    text-transform: uppercase;
-    font-size: 17px;
-    font-weight: bold;
-    padding: 10px;
-    margin: 10px;
-
+.listaNav {
+  color: grey;
+  font-family: "Barlow Condensed", Sans-serif;
+  text-transform: uppercase;
+  font-size: 17px;
+  font-weight: bold;
+  padding: 10px;
+  margin: 10px;
 }
 .listaNav:hover {
-    border-bottom: black solid 2px;
-    color: black;
+  border-bottom: black solid 2px;
+  color: black;
 }
 
 .listaPedirCita {
-    background-color: rgb(112, 111, 111);
-    color: white;
-    font-family: "Barlow Condensed", Sans-serif;
-    text-transform: uppercase;
-    font-size: 17px;
-    font-weight: bold;
-    margin: auto;
+  background-color: rgb(112, 111, 111);
+  color: white;
+  font-family: "Barlow Condensed", Sans-serif;
+  text-transform: uppercase;
+  font-size: 17px;
+  font-weight: bold;
+  margin: auto;
 }
-
-
 .listaPedirCita:hover {
-    background-color: rgb(77, 76, 76);
-    color:aliceblue
+  background-color: rgb(77, 76, 76);
+  color: aliceblue;
 }
-
-
-
-/* Main */
-
 
 /* index */
 .contenedorIndex {
-    display: flex;
-    height: calc(100vh - 100px);  
+  display: flex;
+  height: calc(100vh - 100px);
 }
 
 .signoPsico {
-    display: flex;
-    height: 40px;
-    width: 40px;
+  display: flex;
+  height: 40px;
+  width: 40px;
 }
 
 .cajaIndex {
-    border: solid 1px rgb(233, 233, 233);
-    border-radius: 3px;
-    height: 550px;
-    width: 1200px;
-    max-width: 90%;
-    position: relative;
-    top: 0;
-    bottom: 0;
-    right: 0;
-    left: 0;
-    margin: auto;
-    background-image: url(../img/agua.jpg);
-    background-size: cover;
-    filter: brightness( 100% ) contrast( 100% ) saturate( 37% ) blur( 0px ) hue-rotate( 0deg );
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    font-family: 'Lora', serif;
-    font-size: 50px;
-    color: aliceblue;
-    text-transform: uppercase;
-    
+  border: solid 1px rgb(233, 233, 233);
+  border-radius: 3px;
+  height: 550px;
+  width: 1200px;
+  max-width: 90%;
+  position: relative;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  margin: auto;
+  background-image: url(../img/agua.jpg);
+  background-size: cover;
+  filter: brightness(100%) contrast(100%) saturate(37%) blur(0px) hue-rotate(0deg);
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: "Lora", serif;
+  font-size: 50px;
+  color: aliceblue;
+  text-transform: uppercase;
 }
+
 .tituloSecundario {
-    font-size: 28px;
-    font-family: 'Times New Roman', Times, serif;
-    text-transform: lowercase;
+  font-size: 28px;
+  font-family: "Times New Roman", Times, serif;
+  text-transform: lowercase;
 }
 
 /* Sobre Mi */
 .contenedorSobreMi {
-    display: flex;
-    margin-top: 40px;
-    margin-left: auto;
-    margin-right: auto;
-    background-color: rgb(233, 233, 233);
-    
-    border: #a3a2a3 solid 2px;
+  display: flex;
+  margin-top: 40px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: rgb(233, 233, 233);
+  border: #a3a2a3 solid 2px;
 }
 
 .florSobreMi {
-    width: 300px;
-    border-radius: 1px;
-    box-shadow: #a3a2a3;
-    margin: 30px;
-    padding: 30px;
+  width: 300px;
+  border-radius: 1px;
+  box-shadow: #a3a2a3;
+  margin: 30px;
+  padding: 30px;
 }
+
 .textoPrincipal {
-    margin: 20px;
-    padding: 20px;
-    text-align-last: left;
-    align-items: center;
-    font-family: 'Dawning of a New Day', cursive;
-    
+  margin: 20px;
+  padding: 20px;
+  text-align-last: left;
+  align-items: center;
+  font-family: "Dawning of a New Day", cursive;
 }
+
 .textoSobremi {
-    font-size: 40px;
-    margin-bottom: 30px;
+  font-size: 40px;
+  margin-bottom: 30px;
 }
-.texto { font-size: 18px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    color: #7a7a7a ;
+
+.texto {
+  font-size: 18px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: #7a7a7a;
 }
 
 /* Mi especialidad */
-
-.especializada{
-    font-family: 'Dancing Script', cursive;
-    justify-content: center;
-    align-items: center;
-
+.especializada {
+  font-family: "Dancing Script", cursive;
+  justify-content: center;
+  align-items: center;
 }
+
 .contenedor1 {
-    position: relative;
-    height: 450px;
-    top: 50px;
+  position: relative;
+  height: 450px;
+  top: 50px;
 }
+
 .cabeza {
-    position: absolute;
-    font-size: 12px;
-    text-align: center;
+  position: absolute;
+  font-size: 12px;
+  text-align: center;
 }
 
 .uno {
-    left: 300px;
+  left: 300px;
 }
 
 .dos {
-    left: 500px;
+  left: 500px;
 }
 
 .tres {
-    left: 700px;
+  left: 700px;
 }
 
 .cuatro {
-    left: 900px;
+  left: 900px;
 }
 
 .cinco {
-    left: 1100px;
+  left: 1100px;
 }
 
 /* Proceso terapeutico */
-
 .divTerapia {
-    position: relative;
-    height: 900px;
+  position: relative;
+  height: 900px;
 }
+
 .tituloTerapia {
-    position: relative;
-    display: inline;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-style: oblique;
-    font-size: 60px;
-    top: 50px;
-    left: 300px;
+  position: relative;
+  display: inline;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-style: oblique;
+  font-size: 60px;
+  top: 50px;
+  left: 300px;
 }
 
 .tituloTerapiaDos {
-    position: relative;
-    display: inline;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    top: 80px;
-    left: 100px;
+  position: relative;
+  display: inline;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  top: 80px;
+  left: 100px;
 }
 
 .textoTerapia {
-    position: relative;
-    display: inline-block;
-    margin-top: 100px;
-    margin-left: 50px;
-    margin-right: 750px;
-
+  position: relative;
+  display: inline-block;
+  margin-top: 100px;
+  margin-left: 50px;
+  margin-right: 750px;
 }
-.terapiaFoto{
-    display: inline;
-    width: 600px;
-    position:absolute;
-    top: 50px;
-    left: 1200px;
+
+.terapiaFoto {
+  display: inline;
+  width: 600px;
+  position: absolute;
+  top: 50px;
+  left: 1200px;
+}
+
+/* Proceso terapeutico */
+.divTerapia {
+  position: relative;
+  height: 900px;
+}
+
+.tituloTerapia {
+  position: relative;
+  display: inline;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-style: oblique;
+  font-size: 60px;
+  top: 50px;
+  left: 300px;
+}
+
+.tituloTerapiaDos {
+  position: relative;
+  display: inline;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  top: 80px;
+  left: 100px;
+}
+
+.textoTerapia {
+  position: relative;
+  display: inline-block;
+  margin-top: 100px;
+  margin-left: 50px;
+  margin-right: 750px;
+}
+
+.terapiaFoto {
+  display: inline;
+  width: 600px;
+  position: absolute;
+  top: 50px;
+  left: 1200px;
 }
 
 /* Informacion */
-
-.contenedorPrincipal{
-    position: relative;
-    height: 900px;
-    top: 50px;
+.contenedorPrincipal {
+  position: relative;
+  height: 900px;
+  top: 50px;
 }
 
 .cajaMadre {
-    position: absolute;
-    background-color: #d1cbce ;
-    width: 1300px;
-    height: 300px;
-    margin: 20px 100px 400px 100px;
+  position: absolute;
+  background-color: #d1cbce;
+  width: 1300px;
+  height: 300px;
+  margin: 20px 100px 400px 100px;
 }
 
 .cajaConsulta {
-    position: absolute;
-    display: inline-block;
-    border: 1px black solid;
-    left: 200px;
-    top: -15px;
-    background-color: rgb(250, 226, 247);
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  position: absolute;
+  display: inline-block;
+  border: 1px black solid;
+  left: 200px;
+  top: -15px;
+  background-color: rgb(250, 226, 247);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .icono {
-    position: absolute;
-    font-size: 12px;
-    text-align: center;
-    top: 99px;
-    font-weight: bold;
+  position: absolute;
+  font-size: 12px;
+  text-align: center;
+  top: 99px;
+  font-weight: bold;
 }
 
 .persona {
-    left: 250px;
+  left: 250px;
 }
 
 .tiempo {
-    left: 450px;
+  left: 450px;
 }
 
-.plata{
-    left: 650px;
+.plata {
+  left: 650px;
 }
-.online{
-    left: 1000px;
+
+.online {
+  left: 1000px;
 }
-.presencial{
-    left: 1200px;
+
+.presencial {
+  left: 1200px;
 }
+
 .fotoInfo {
-    position: absolute;
-    display: inline-block;
-    width: 1400px;
-    margin: 400px 50px 3px 50px;
+  position: absolute;
+  display: inline-block;
+  width: 1400px;
+  margin: 400px 50px 3px 50px;
 }
 
 /* Solicitar una cita */
-
 .mainSolicitarCita {
-    height: 100%;  
-}
-
-.sectionSolicitarCita {
-   
+  height: 100%;
 }
 
 .sectionSolicitarCita1 {
-
-    width: 30%;
-    margin: 45px;
+  width: 30%;
+  margin: 45px;
 }
+
 .sectionSolicitarCita2 {
-    width: 30%;
-    background-color: rgb(252, 243, 249);
-    margin: 25px;
+  width: 30%;
+  background-color: rgb(252, 243, 249);
+  margin: 25px;
 }
-.sectionSolicitarCita3 {
-    
 
+.tituloCita {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 30px;
 }
-.tituloCita{
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-size: 30px;
-    
-}
-.classh3{
-    font-size: 20px; 
-    font-family: 'Caprasimo', cursive;
+
+.classh3 {
+  font-size: 20px;
+  font-family: "Caprasimo", cursive;
 }
 
 .formulario {
-    font-family: Arial, Helvetica, sans-serif;
-    width: 80%;
-    padding: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  width: 80%;
+  padding: 20px;
 }
 
 .nombre {
-    margin: 10px;
-    max-width: 100%;
+  margin: 10px;
+  max-width: 100%;
 }
+
 .mensaje {
-    max-width: 100%;
-    margin: 10px;
-}
-.telefono {
-    margin: 10px;
-    max-width: 100%;
-}
-.enter{
-    margin: 10px;
-    max-width: 100%;
+  max-width: 100%;
+  margin: 10px;
 }
 
-.flor4{
-    width: 400px;
-    left: 1000px;  
+.telefono, .enter {
+  margin: 10px;
+  max-width: 100%;
 }
 
+.flor4 {
+  width: 400px;
+  left: 1000px;
+}
 
 /* Footer */
-
 .footer {
-    background-color: #a3a2a3;
-    margin-top: 100px;
-    width: 100%;
-    height: 100%;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    border-top: solid grey 2px;
+  background-color: #a3a2a3;
+  margin-top: 100px;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  border-top: solid grey 2px;
 }
 
 .parrafo {
-    margin: 20px;
-    padding: 20px;
-    text-align: center;
-    justify-content: space-evenly;
-    align-items: center;
+  margin: 20px;
+  padding: 20px;
+  text-align: center;
+  justify-content: space-evenly;
+  align-items: center;
 }
 
-@media (min-width:300px) and (max-width:576px) {
-    .hola {
-        font-size: 70%;
-    }
-    .footer {
-        flex-wrap: wrap;
-    }
-    .contenedorSobreMi {
-        flex-wrap: wrap;
-    }     
-    .textoPrincipal {
-        font-size: medium;
-    }
-    .contenedorFotoSobreMi {
-        margin-right: auto;
-        margin-left: auto;
-    }
-    
-    .bodyMiEspecialidad {
-        display: grid;
-    }
-    .sectionSolicitarCita2 {
-        width: 90%;
-    }
-    .sectionSolicitarCita1 {
-        width: 90%;
-        margin: 45px;
-        }
-
+@media (min-width: 300px) and (max-width: 576px) {
+  .hola {
+    font-size: 70%;
+  }
+  .footer {
+    flex-wrap: wrap;
+  }
+  .contenedorSobreMi {
+    flex-wrap: wrap;
+  }
+  .textoPrincipal {
+    font-size: medium;
+  }
+  .contenedorFotoSobreMi {
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .bodyMiEspecialidad {
+    display: grid;
+  }
+  .sectionSolicitarCita2 {
+    width: 90%;
+  }
+  .sectionSolicitarCita1 {
+    width: 90%;
+    margin: 45px;
+  }
+}
+@media (min-width: 577px) and (max-width: 992px) {
+  .sectionSolicitarCita2 {
+    width: 70%;
+  }
+  .sectionSolicitarCita1 {
+    width: 70%;
+    margin: 45px;
+  }
 }
 
-@media (min-width:577px) and (max-width:992px) {
-
-    .sectionSolicitarCita2 {
-        width: 70%;
-    }
-    .sectionSolicitarCita1 {
-        width: 70%;
-        margin: 45px;
-        }
-}
-
-@media (min-width:993px) {
-
-}
+/*# sourceMappingURL=estilo.css.map */

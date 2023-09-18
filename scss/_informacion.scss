@@ -1,0 +1,61 @@
+/* Informacion */
+
+.contenedorPrincipal {
+    position: relative;
+    height: 900px;
+    top: 50px;
+  }
+  
+  .cajaMadre {
+    position: absolute;
+    background-color: #d1cbce;
+    width: 1300px;
+    height: 300px;
+    margin: 20px 100px 400px 100px;
+  }
+  
+  .cajaConsulta {
+    position: absolute;
+    display: inline-block;
+    border: 1px black solid;
+    left: 200px;
+    top: -15px;
+    background-color: rgb(250, 226, 247);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  .icono {
+    position: absolute;
+    font-size: 12px;
+    text-align: center;
+    top: 99px;
+    font-weight: bold;
+  }
+  
+  .persona {
+    left: 250px;
+  }
+  
+  .tiempo {
+    left: 450px;
+  }
+  
+  .plata {
+    left: 650px;
+  }
+  
+  .online {
+    left: 1000px;
+  }
+  
+  .presencial {
+    left: 1200px;
+  }
+  
+  .fotoInfo {
+    position: absolute;
+    display: inline-block;
+    width: 1400px;
+    margin: 400px 50px 3px 50px;
+  }
+  

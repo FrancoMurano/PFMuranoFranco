@@ -1,0 +1,45 @@
+@media (min-width:300px) and (max-width:576px) {
+    .hola {
+        font-size: 70%;
+    }
+    .footer {
+        flex-wrap: wrap;
+    }
+    .contenedorSobreMi {
+        flex-wrap: wrap;
+    }     
+    .textoPrincipal {
+        font-size: medium;
+    }
+    .contenedorFotoSobreMi {
+        margin-right: auto;
+        margin-left: auto;
+    }
+    
+    .bodyMiEspecialidad {
+        display: grid;
+    }
+    .sectionSolicitarCita2 {
+        width: 90%;
+    }
+    .sectionSolicitarCita1 {
+        width: 90%;
+        margin: 45px;
+        }
+
+}
+
+@media (min-width:577px) and (max-width:992px) {
+
+    .sectionSolicitarCita2 {
+        width: 70%;
+    }
+    .sectionSolicitarCita1 {
+        width: 70%;
+        margin: 45px;
+        }
+}
+
+@media (min-width:993px) {
+
+}

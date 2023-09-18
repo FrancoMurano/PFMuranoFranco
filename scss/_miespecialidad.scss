@@ -1,0 +1,81 @@
+/* Mi especialidad */
+
+.especializada {
+    font-family: 'Dancing Script', cursive;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .contenedor1 {
+    position: relative;
+    height: 450px;
+    top: 50px;
+  }
+  
+  .cabeza {
+    position: absolute;
+    font-size: 12px;
+    text-align: center;
+  }
+  
+  .uno {
+    left: 300px;
+  }
+  
+  .dos {
+    left: 500px;
+  }
+  
+  .tres {
+    left: 700px;
+  }
+  
+  .cuatro {
+    left: 900px;
+  }
+  
+  .cinco {
+    left: 1100px;
+  }
+  
+  /* Proceso terapeutico */
+  
+  .divTerapia {
+    position: relative;
+    height: 900px;
+  }
+  
+  .tituloTerapia {
+    position: relative;
+    display: inline;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-style: oblique;
+    font-size: 60px;
+    top: 50px;
+    left: 300px;
+  }
+  
+  .tituloTerapiaDos {
+    position: relative;
+    display: inline;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    top: 80px;
+    left: 100px;
+  }
+  
+  .textoTerapia {
+    position: relative;
+    display: inline-block;
+    margin-top: 100px;
+    margin-left: 50px;
+    margin-right: 750px;
+  }
+  
+  .terapiaFoto {
+    display: inline;
+    width: 600px;
+    position: absolute;
+    top: 50px;
+    left: 1200px;
+  }
+  
