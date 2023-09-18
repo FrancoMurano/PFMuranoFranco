@@ -1,0 +1,44 @@
+header {
+    background-color: bisque;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+    h1 {
+        color: $color-principal;
+    }
+
+
+    nav {
+        background-color: cadetblue;
+        border: 2px solid red;
+        
+        
+        ul {
+            background-color: yellow;
+            display: flex;
+            justify-content: space-around;  
+            align-items: center;  
+        }
+        li {
+            display: inline-block;
+            text-align: center;
+            border: 2px solid red;
+
+            a {
+                text-decoration: none;
+                text-transform: uppercase;
+                color: black;
+                font-size: $tamFuente + 10px;
+                margin: $margenes;
+                padding: 10px;
+            
+                &:hover {
+                    background-color: white;
+                }
+            
+            }
+
+        }
+    }
+}
