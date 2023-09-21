@@ -1,41 +1,73 @@
 /* Proceso terapeutico */
 
-.divTerapia {
-    position: relative;
-    height: 900px;
+.mainProceso {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px 10px 10px 10px;
+  border: solid red 2px;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.contenedorPrincipaProceso {
+  display: flex;
+  justify-content: space-around;
+  align-items: safe;
+  flex-wrap: wrap;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 30px;
+  background-color:  rgb(233, 233, 233);
+  border: solid green 2px;
+  padding: 20px;
+  max-width: 100%;
+}
+.divTextoTerapia {
+    flex-direction: column;
+    justify-content: space-between;
+    width: 59%;
+    padding: 10px 5px 5px 15px;
+    border: solid black 2px;
+    margin-left: 20px;
+    margin-top: 20px;
+    
   }
   
+  .divFotoTerapia {
+    width: 37%;
+    height: 100%;
+    margin-right: 20px;
+    margin-top: 20px;
+    padding: 10px 15px 5px 15px;
+    border: solid yellow 2px;
+    
+  }
+
   .tituloTerapia {
-    position: relative;
-    display: inline;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-style: oblique;
-    font-size: 60px;
-    top: 50px;
-    left: 300px;
-  }
-  
-  .tituloTerapiaDos {
-    position: relative;
-    display: inline;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    top: 80px;
-    left: 100px;
+    color: black;
+    font-family: "Barlow", Sans-serif;
+    font-size: 30px;
+    text-transform: uppercase;
+    text-align: end;
+    width: 80%;
+    margin-top: 15px;
   }
   
   .textoTerapia {
-    position: relative;
-    display: inline-block;
-    margin-top: 100px;
-    margin-left: 50px;
-    margin-right: 750px;
+    justify-content: center;
+    color: #7a7a7a; 
+    font-family: "Mukta", Sans-serif;
+    font-size: 20px;
+    text-align: right;
+    line-height: 1.4em;
+    width: 95%;
+    margin-top: 70px;
   }
   
   .terapiaFoto {
-    display: inline;
-    width: 600px;
-    position: absolute;
-    top: 50px;
-    left: 1200px;
+    flex: 1;
+    width: 100%;
+    max-width: 100%;
+    max-height: 100%;
   }
   

@@ -1,4 +1,4 @@
-@media (min-width:300px) and (max-width:576px) {
+@media screen and (max-width: 480px) {
     .hola {
         font-size: 70%;
     }
@@ -10,6 +10,9 @@
     }     
     .textoPrincipal {
         font-size: medium;
+    }
+    .formulario {
+        width: 100%;
     }
     .contenedorFotoSobreMi {
         margin-right: auto;
@@ -26,20 +29,31 @@
         width: 90%;
         margin: 45px;
         }
-
-}
-
-@media (min-width:577px) and (max-width:992px) {
-
-    .sectionSolicitarCita2 {
-        width: 70%;
+    .contenedorIconos {
+            flex-wrap: wrap;
+            align-items: center;
+            justify-content: center;
+        }    
+    .sectionImagenInformacion {
+        max-width: 100%;
+        padding: 10px;
     }
-    .sectionSolicitarCita1 {
-        width: 70%;
-        margin: 45px;
-        }
 }
 
-@media (min-width:993px) {
-
+@media screen and (max-width: 768px) {
+    .footer {
+        flex-wrap: wrap;
+    }
+    .formulario {
+        width: 75%;
+    }
+    .contenedorIconos {
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
+    .sectionImagenInformacion {
+        max-width: 80%;
+        padding: 20px;
+    }
 }
