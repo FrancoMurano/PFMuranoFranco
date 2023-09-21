@@ -1,59 +1,59 @@
 /* HEADER */
 
 .fondoHeader {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: rgb(233, 233, 233);
-    width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: $color-fondo;
+  width: 100%;
+}
+
+.hola {
+  font-family: 'Lora', serif;
+  color: $color-titulos;
+  text-decoration: none;
+  font-size: 30px;
+  flex-grow: 23;
+  display: flex;
+  justify-content: center;
+}
+
+.nav {
+  text-decoration: none;
+  list-style-type: none;
+  text-transform: uppercase;
+  font-size: 20px;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+}
+
+.listaNav {
+  color: $color-texto;
+  font-family: "Barlow Condensed", Sans-serif;
+  text-transform: uppercase;
+  font-size: 17px;
+  font-weight: bold;
+  padding: 10px;
+  margin: 10px;
+
+  &:hover {
+    border-bottom: black solid 2px;
+    color: black;
   }
-  
-  .hola {
-    font-family: 'Lora', serif;
-    color: rgb(27, 27, 27);
-    text-decoration: none;
-    font-size: 30px;
-    flex-grow: 23;
-    display: flex;
-    justify-content: center;
+}
+
+.listaPedirCita {
+  background-color: rgb(112, 111, 111);
+  color: white;
+  font-family: "Barlow Condensed", Sans-serif;
+  text-transform: uppercase;
+  font-size: 17px;
+  font-weight: bold;
+  margin: auto;
+
+  &:hover {
+    background-color: rgb(77, 76, 76);
+    color: aliceblue;
   }
-  
-  .nav {
-    text-decoration: none;
-    list-style-type: none;
-    text-transform: uppercase;
-    font-size: 20px;
-    font-weight: bold;
-    display: flex;
-    align-items: center;
-  }
-  
-  .listaNav {
-    color: grey;
-    font-family: "Barlow Condensed", Sans-serif;
-    text-transform: uppercase;
-    font-size: 17px;
-    font-weight: bold;
-    padding: 10px;
-    margin: 10px;
-  
-    &:hover {
-      border-bottom: black solid 2px;
-      color: black;
-    }
-  }
-  
-  .listaPedirCita {
-    background-color: rgb(112, 111, 111);
-    color: white;
-    font-family: "Barlow Condensed", Sans-serif;
-    text-transform: uppercase;
-    font-size: 17px;
-    font-weight: bold;
-    margin: auto;
-  
-    &:hover {
-      background-color: rgb(77, 76, 76);
-      color: aliceblue;
-    }
-  }
+}

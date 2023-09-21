@@ -1,0 +1,8 @@
+$color-fondo: rgb(233, 233, 233);
+$color-texto: #7a7a7a;
+$color-titulos: rgb(36, 36, 36);
+
+@mixin margincostadosauto{
+    margin-left: auto;
+    margin-right: auto;
+}

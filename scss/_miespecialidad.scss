@@ -1,44 +1,47 @@
 /* Mi especialidad */
 
 .mainEspecialidad {
-    max-width: 100%;
-    width: 100%;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 10px 10px 10px 10px;
-    border: solid black 2px;
-  
+  max-width: 100%;
+  width: 100%;
+  @include margincostadosauto;
+  padding: 10px 10px 10px 10px;
+  font-weight: bold;
 }
+
 .especializada {
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    color: #7a7a7a;
-    font-family: "Mukta", Sans-serif;
-    font-size: 30px;
-    margin-top: 90px;
-    margin-bottom: 50px;
-  }
-  
-  .contenedor1 {
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    height: 100%;
-    font-family: "Barlow", Sans-serif;
-    font-size: 14px;
-    font-weight: 500;
-    text-transform: uppercase;
-    color: black;
-    padding: 15px;
-    border: solid black 3px;
-    margin: auto;
-  }
-  
-  .cabeza {
-    text-align: center;
-    border: solid black 3px;
-    height: 100%;
-    margin: 10px;
-    padding: 5px;
-  }
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: color-texto;
+  font-family: "Mukta", Sans-serif;
+  font-size: 30px;
+  margin-top: 90px;
+  margin-bottom: 50px;
+  font-weight: bold;
+}
+
+.contenedor1 {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  height: 100%;
+  font-family: "Barlow", Sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  text-transform: uppercase;
+  color: $color-titulos;
+  padding: 15px;
+  margin: auto;
+}
+
+.cabeza {
+  text-align: center;
+  height: 100%;
+  margin: 10px;
+  padding: 5px;
+}
+
+.textoCabeza {
+  margin: 5px;
+  font-weight: bold;
+}

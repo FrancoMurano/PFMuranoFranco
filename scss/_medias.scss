@@ -2,38 +2,43 @@
     .hola {
         font-size: 70%;
     }
-    .footer {
-        flex-wrap: wrap;
-    }
+
+    .footer,
     .contenedorSobreMi {
         flex-wrap: wrap;
-    }     
-    .textoPrincipal {
-        font-size: medium;
     }
+
+    .textoPrincipal {
+        font-size: small;
+    }
+
     .formulario {
         width: 100%;
     }
+
     .contenedorFotoSobreMi {
-        margin-right: auto;
-        margin-left: auto;
+        @include margincostadosauto;
     }
-    
+
     .bodyMiEspecialidad {
         display: grid;
     }
+
     .sectionSolicitarCita2 {
         width: 90%;
     }
+
     .sectionSolicitarCita1 {
         width: 90%;
         margin: 45px;
-        }
+    }
+
     .contenedorIconos {
-            flex-wrap: wrap;
-            align-items: center;
-            justify-content: center;
-        }    
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
+
     .sectionImagenInformacion {
         max-width: 100%;
         padding: 10px;
@@ -44,16 +49,53 @@
     .footer {
         flex-wrap: wrap;
     }
+
     .formulario {
         width: 75%;
     }
+
     .contenedorIconos {
         flex-wrap: wrap;
         align-items: center;
         justify-content: center;
     }
+
     .sectionImagenInformacion {
         max-width: 80%;
         padding: 20px;
+    }
+
+    .textoPrincipal {
+        flex-wrap: wrap;
+        width: 100%;
+        max-width: 100%;
+        @include margincostadosauto;
+        font-size: medium;
+    }
+
+    .contenedorFotoSobreMi {
+        @include margincostadosauto;
+    }
+
+    .contenedorSobreMi {
+        flex-wrap: wrap;
+    }
+
+    .divFotoTerapia {
+        width: auto;
+        @include margincostadosauto;
+    }
+
+    .btn-primary {
+        width: 100px;
+    }
+}
+
+@media screen and (max-width: 1050px) {
+
+    .divTextoTerapia,
+    .sectionImagenInformacion {
+        width: auto;
+        @include margincostadosauto;
     }
 }
