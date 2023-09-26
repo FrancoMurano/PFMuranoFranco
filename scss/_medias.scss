@@ -1,9 +1,12 @@
 @media screen and (max-width: 480px) {
-    .hola {
-        font-size: 70%;
+    .tituloNombre {
+        font-size: 85%;
     }
 
-    .footer,
+    .listaPedirCitaMobile {
+        font-size: 10px;
+    }
+
     .contenedorSobreMi {
         flex-wrap: wrap;
     }
@@ -46,6 +49,15 @@
 }
 
 @media screen and (max-width: 768px) {
+    
+    .container-fluid{
+        padding: 5px;
+        border-bottom: 1px $color-texto solid ;
+    }
+    .listaPedirCitaMobile {
+        font-size: 15px;
+    }
+
     .footer {
         flex-wrap: wrap;
     }
@@ -89,6 +101,14 @@
     .btn-primary {
         width: 100px;
     }
+    .navbar-expand-lg {
+        .listaPedirCitaMobile {
+            display: none;
+        }
+        .tituloNombre {
+            display: none;
+        }
+    }
 }
 
 @media screen and (max-width: 1050px) {
@@ -98,4 +118,14 @@
         width: auto;
         @include margincostadosauto;
     }
+  
+}
+
+@media screen and (min-width: 992px) and (max-width: 3000px) {
+
+
+.listaPedirCitaMobile {
+    display: none;
+}
+
 }
