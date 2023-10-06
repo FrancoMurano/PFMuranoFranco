@@ -27,13 +27,22 @@
 .contenedorIconos {
   display: flex;
   padding: 10px;
+  border: 2px solid green;
+}
+.iconoCuatro {
+  border: 2px solid blue;
+  border-bottom: solid 1px $color-texto;
+}
+.iconoCinco {
+  border-bottom: solid 1px $color-texto;
 }
 
 .icono {
-  display: block;
   width: calc(33.33% - 20px);
   text-align: center;
   margin: 10px;
+  border: 2px solid red;
+  max-width: 100%;
 }
 
 .sectionImagenInformacion {

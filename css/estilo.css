@@ -74,13 +74,30 @@ body {
 /* index */
 .contenedorIndex {
   display: flex;
-  height: calc(100vh - 100px);
+  max-width: 100%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.cajaMayor {
+  width: 100%;
+  max-width: 100%;
+  display: flex;
+}
+
+.cajaSigno {
+  display: flex;
 }
 
 .signoPsico {
-  display: flex;
-  height: 40px;
-  width: 40px;
+  height: 80px;
+  width: 80px;
+}
+
+.signoPsico2 {
+  height: 250px;
+  width: 200px;
 }
 
 .cajaIndex {
@@ -89,7 +106,6 @@ body {
   height: 550px;
   width: 1200px;
   max-width: 90%;
-  position: relative;
   top: 0;
   bottom: 0;
   right: 0;
@@ -109,6 +125,10 @@ body {
   text-transform: uppercase;
 }
 
+.cajaNombreLogo {
+  width: 100%;
+}
+
 .tituloSecundario {
   font-size: 28px;
   font-family: "Times New Roman", Times, serif;
@@ -118,11 +138,11 @@ body {
 /* Sobre Mi */
 .contenedorSobreMi {
   display: flex;
-  margin-top: 40px;
+  margin-top: 50px;
   margin-left: auto;
   margin-right: auto;
   background-color: rgb(233, 233, 233);
-  max-width: 100%;
+  max-width: 80%;
 }
 
 .florSobreMi {
@@ -130,17 +150,22 @@ body {
   border-radius: 1px;
   box-shadow: #a3a2a3;
   margin: 30px;
-  padding: 30px;
   box-shadow: 0px 0px 7px 0px black;
 }
 
 .textoPrincipal {
-  width: 90%;
+  width: 50%;
   margin: 20px;
   padding: 20px;
   text-align-last: left;
   align-items: center;
   font-family: "Dawning of a New Day", cursive;
+}
+
+.contenedorFotoSobreMi {
+  width: 50%;
+  padding: auto;
+  margin: auto;
 }
 
 .textoSobremi {
@@ -300,13 +325,24 @@ body {
 .contenedorIconos {
   display: flex;
   padding: 10px;
+  border: 2px solid green;
+}
+
+.iconoCuatro {
+  border: 2px solid blue;
+  border-bottom: solid 1px #7a7a7a;
+}
+
+.iconoCinco {
+  border-bottom: solid 1px #7a7a7a;
 }
 
 .icono {
-  display: block;
   width: calc(33.33% - 20px);
   text-align: center;
   margin: 10px;
+  border: 2px solid red;
+  max-width: 100%;
 }
 
 .sectionImagenInformacion {
@@ -417,7 +453,7 @@ body {
 
 @media screen and (max-width: 480px) {
   .tituloNombre {
-    font-size: 85%;
+    font-size: 83%;
   }
   .listaPedirCitaMobile {
     font-size: 10px;
@@ -435,9 +471,6 @@ body {
     margin-left: auto;
     margin-right: auto;
   }
-  .bodyMiEspecialidad {
-    display: grid;
-  }
   .sectionSolicitarCita2 {
     width: 90%;
   }
@@ -450,6 +483,16 @@ body {
     align-items: center;
     justify-content: center;
   }
+  .icono {
+    padding: 1px;
+    margin: 1px;
+  }
+  .textoPrimerosTresItem {
+    font-size: 1px;
+  }
+  .textoUltimosItem {
+    font-size: 2px;
+  }
   .sectionImagenInformacion {
     max-width: 100%;
     padding: 10px;
@@ -461,7 +504,7 @@ body {
     border-bottom: 1px #7a7a7a solid;
   }
   .listaPedirCitaMobile {
-    font-size: 15px;
+    font-size: 13px;
   }
   .footer {
     flex-wrap: wrap;
@@ -474,8 +517,36 @@ body {
     align-items: center;
     justify-content: center;
   }
+  .icono {
+    padding: 1px;
+    margin: 1px;
+  }
+  .iconoUno {
+    width: 30%;
+    padding: 1px;
+  }
+  .iconoDos {
+    width: 30%;
+  }
+  .iconoTres {
+    width: 30%;
+  }
+  .iconoCuatro {
+    width: 45%;
+    border-bottom: solid 1px #7a7a7a;
+  }
+  .iconoCinco {
+    width: 45%;
+    border-bottom: solid 1px #7a7a7a;
+  }
+  .textoPrimerosTresItem {
+    font-size: 15px;
+  }
+  .textoUltimosItem {
+    font-size: 20px;
+  }
   .sectionImagenInformacion {
-    max-width: 80%;
+    max-width: 100%;
     padding: 20px;
   }
   .textoPrincipal {
@@ -501,12 +572,6 @@ body {
   .btn-primary {
     width: 100px;
   }
-  .navbar-expand-lg .listaPedirCitaMobile {
-    display: none;
-  }
-  .navbar-expand-lg .tituloNombre {
-    display: none;
-  }
 }
 @media screen and (max-width: 1050px) {
   .divTextoTerapia,
@@ -517,6 +582,9 @@ body {
   }
 }
 @media screen and (min-width: 992px) and (max-width: 3000px) {
+  .btn-primary {
+    width: 100px;
+  }
   .listaPedirCitaMobile {
     display: none;
   }
