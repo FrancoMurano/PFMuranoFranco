@@ -1,6 +1,9 @@
 /* Mi especialidad */
 
 .mainEspecialidad {
+  display: flex;
+  flex-direction: column;
+  align-items: normal;
   max-width: 100%;
   width: 100%;
   @include margincostadosauto;
@@ -9,8 +12,6 @@
 }
 
 .especializada {
-  justify-content: center;
-  align-items: center;
   text-align: center;
   color: color-texto;
   font-family: "Mukta", Sans-serif;
@@ -20,10 +21,18 @@
   font-weight: bold;
 }
 
+.contenedorPadreMiEspecialidad {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
 .contenedor1 {
   display: flex;
+  flex-direction: row;
   justify-content: space-around;
   flex-wrap: wrap;
+  width: 100%;
   height: 100%;
   font-family: "Barlow", Sans-serif;
   font-size: 14px;

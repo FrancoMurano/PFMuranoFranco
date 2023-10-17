@@ -5,6 +5,9 @@
   width: 100%;
   @include margincostadosauto;
   padding: 10px 10px 10px 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .contenedorPrincipalInformacion {
@@ -26,11 +29,13 @@
 
 .contenedorIconos {
   display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
   padding: 10px;
-  border: 2px solid green;
 }
 .iconoCuatro {
-  border: 2px solid blue;
   border-bottom: solid 1px $color-texto;
 }
 .iconoCinco {
@@ -38,10 +43,9 @@
 }
 
 .icono {
-  width: calc(33.33% - 20px);
+  width: 25%;
   text-align: center;
   margin: 10px;
-  border: 2px solid red;
   max-width: 100%;
 }
 

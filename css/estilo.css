@@ -78,6 +78,7 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  padding-top: 40px;
 }
 
 .cajaMayor {
@@ -136,26 +137,30 @@ body {
 }
 
 /* Sobre Mi */
+.contenedorMayorSobreMi {
+  display: flex;
+  max-width: 100%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 40px;
+}
+
 .contenedorSobreMi {
   display: flex;
-  margin-top: 50px;
   margin-left: auto;
   margin-right: auto;
   background-color: rgb(233, 233, 233);
-  max-width: 80%;
+  max-width: 90%;
 }
 
 .florSobreMi {
-  width: 300px;
-  border-radius: 1px;
-  box-shadow: #a3a2a3;
-  margin: 30px;
-  box-shadow: 0px 0px 7px 0px black;
+  width: 120%;
+  padding: auto;
 }
 
 .textoPrincipal {
   width: 50%;
-  margin: 20px;
   padding: 20px;
   text-align-last: left;
   align-items: center;
@@ -163,9 +168,10 @@ body {
 }
 
 .contenedorFotoSobreMi {
-  width: 50%;
+  width: 60%;
   padding: auto;
   margin: auto;
+  max-width: 100%;
 }
 
 .textoSobremi {
@@ -181,6 +187,9 @@ body {
 
 /* Mi especialidad */
 .mainEspecialidad {
+  display: flex;
+  flex-direction: column;
+  align-items: normal;
   max-width: 100%;
   width: 100%;
   margin-left: auto;
@@ -190,8 +199,6 @@ body {
 }
 
 .especializada {
-  justify-content: center;
-  align-items: center;
   text-align: center;
   color: color-texto;
   font-family: "Mukta", Sans-serif;
@@ -201,10 +208,19 @@ body {
   font-weight: bold;
 }
 
+.contenedorPadreMiEspecialidad {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
 .contenedor1 {
   display: flex;
+  flex-direction: row;
   justify-content: space-around;
   flex-wrap: wrap;
+  width: 100%;
   height: 100%;
   font-family: "Barlow", Sans-serif;
   font-size: 14px;
@@ -229,6 +245,9 @@ body {
 
 /* Proceso terapeutico */
 .mainProceso {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   width: 100%;
   margin-left: auto;
   margin-right: auto;
@@ -302,6 +321,9 @@ body {
   margin-left: auto;
   margin-right: auto;
   padding: 10px 10px 10px 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .contenedorPrincipalInformacion {
@@ -324,12 +346,14 @@ body {
 
 .contenedorIconos {
   display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
   padding: 10px;
-  border: 2px solid green;
 }
 
 .iconoCuatro {
-  border: 2px solid blue;
   border-bottom: solid 1px #7a7a7a;
 }
 
@@ -338,10 +362,9 @@ body {
 }
 
 .icono {
-  width: calc(33.33% - 20px);
+  width: 25%;
   text-align: center;
   margin: 10px;
-  border: 2px solid red;
   max-width: 100%;
 }
 
@@ -432,7 +455,7 @@ body {
 /* Footer */
 .footer {
   background: linear-gradient(to top, rgb(200, 200, 200), rgb(240, 240, 240));
-  margin-top: 100px;
+  margin-top: 50px;
   width: 100%;
   height: 100%;
   display: flex;
@@ -484,8 +507,9 @@ body {
     justify-content: center;
   }
   .icono {
-    padding: 1px;
-    margin: 1px;
+    width: 20%;
+    font-size: 10px;
+    max-width: 100%;
   }
   .textoPrimerosTresItem {
     font-size: 1px;
@@ -512,38 +536,17 @@ body {
   .formulario {
     width: 75%;
   }
-  .contenedorIconos {
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
-  }
-  .icono {
-    padding: 1px;
-    margin: 1px;
-  }
-  .iconoUno {
-    width: 30%;
-    padding: 1px;
-  }
-  .iconoDos {
-    width: 30%;
-  }
-  .iconoTres {
-    width: 30%;
-  }
   .iconoCuatro {
-    width: 45%;
     border-bottom: solid 1px #7a7a7a;
   }
   .iconoCinco {
-    width: 45%;
     border-bottom: solid 1px #7a7a7a;
   }
   .textoPrimerosTresItem {
-    font-size: 15px;
+    font-size: 100%;
   }
   .textoUltimosItem {
-    font-size: 20px;
+    font-size: 100%;
   }
   .sectionImagenInformacion {
     max-width: 100%;

@@ -1,6 +1,9 @@
 /* Proceso terapeutico */
 
 .mainProceso {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   width: 100%;
   @include margincostadosauto;
   padding: 10px 10px 10px 10px;
